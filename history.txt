@@ -1,0 +1,40 @@
+ 1513  sudo apt install docker
+ 1646  docker pull caddy:latest
+ 1647  sudo apt install docker
+ 1648  sudo apt install docker-compose
+ 1649  docker
+ 1650  docker pull caddy:latest
+ 1651  sudo usermod -aG docker naythan
+ 1655  docker pull caddy:latest
+ 1656  sudo docker pull caddy:latest
+ 1658  mkdir docker_build
+ 1659  cd docker_build
+ 1667  cd docker_build
+ 1671  docker image build . -t custom-caddy:latest
+ 1672  sudo docker image build . -t custom-caddy:latest
+ 1674  docker list
+ 1675  docker --help
+ 1676  docker ps
+ 1677  sudo docker ps
+ 1678  sudo docker start custom-caddy:latest
+ 1679  sudo docker start 0274064adb54
+ 1680  sudo docker
+ 1681  sudo docker run custom-caddy:latest
+ 1682  sudo docker ps
+ 1683  sudo docker run --name my-caddy -p 8080:80 -d custom-caddy:latest
+ 1684  sudo docker ps
+ 1692  sudo docker rm my-caddy
+ 1693  sudo docker stop my-caddy
+ 1694  sudo docker rm my-caddy
+ 1699  sudo docker run --name my-caddy -p 8080:80 -v pages:/usr/src/pages/ -d custom-caddy:latest
+ 1704  sudo docker stop my-caddy
+ 1705  sudo docker rm my-caddy
+ 1706  sudo docker run --name my-caddy -p 8080:80 -v pages:/usr/src/pages/ -d custom-caddy:latest
+ 1707  sudo docker stop my-caddy
+ 1708  sudo docker rm my-caddy
+ 1709  sudo docker run --name my-caddy -p 8080:80 -v ./pages/index.html:/usr/src/pages/index.html -d custom-caddy:latest
+ 1710  sudo docker run --name my-caddy -p 8080:80 -v ${PWD}/pages:/usr/src/pages/ -d custom-caddy:latest
+ 1726  sudo docker stop my-caddy
+ 1727  sudo docker rm my-caddy
+ 1728  sudo docker run --name my-caddy -p 8080:80 -v ${PWD}/pages:/usr/src/pages/ -d custom-caddy:latest
+ 1737  history | tail -n 1000 | grep docker
